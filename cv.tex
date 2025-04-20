@@ -18,6 +18,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{ragged2e}
+\usepackage{graphicx}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -100,12 +101,16 @@
 \end{tabular*}
 
 %-----------ABOUT ME-----------------
-\section{Perfil Profecional}
-  \small
-    \justifying
-      {Mi formación académica y familiar, junto con mi trayectoria profesional, han contribuido a construir un sólido ideal de vida basado en la ética, la responsabilidad y el respeto por la diversidad. Estos valores me impulsan a brindar un trato digno y respetuoso en cada entorno donde me desempeño, ya sea social o institucional. Cuento con una sólida claridad conceptual, habilidades para liderar y estructurar proyectos, facilidad para el trabajo en equipo y una destacada capacidad para gestionar relaciones interpersonales. Además, mantengo un compromiso constante con la actualización profesional y el aprendizaje continuo.}
-
-
+\section{Perfil Profesional}
+  \begin{minipage}{0.15\textwidth}
+    \includegraphics[width=0.9\linewidth]{img.jpg} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.84\textwidth}
+    \small
+      \justifying
+        Mi formación académica y familiar, junto con mi trayectoria profesional, han contribuido a construir un sólido ideal de vida basado en la ética, la responsabilidad y el respeto por la diversidad. Estos valores me impulsan a brindar un trato digno y respetuoso en cada entorno donde me desempeño, ya sea social o institucional. Cuento con una sólida claridad conceptual, habilidades para liderar y estructurar proyectos, facilidad para el trabajo en equipo y una destacada capacidad para gestionar relaciones interpersonales. Además, mantengo un compromiso constante con la actualización profesional y el aprendizaje continuo.
+  \end{minipage}
 %-----------EDUCATION-----------------
 \section{Educacion}
   \resumeSubHeadingListStart
@@ -120,15 +125,15 @@
 
 %-----------EXPERIENCE-----------------
 \section{Experiencia}
+  \justifying
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Credito Hipotecario Nacional CHN}{Guatemala}
       {Analista de Aplicaciones}{Abr 2022 -- Presente}
       \resumeItemListStart
-        \resumeItem{Sistema Integral de Seguros SISE}
+        \resumeItem{Sistema Integral de Seguros SISE}        
           {Participación activa en la migración del sistema de gestión de seguros SISE, pasando de su versión SISE2G (arquitectura cliente-servidor desarrollada en VB6) a SISE3G, una plataforma web desarrollada en C\#, utilizando Microsoft SQL Server como motor de base de datos.}
-        \resumeItem{Modulo de Gastos Medicos}
+        \resumeItem{Modulo de Gastos Medicos}      
           {Responsable del desarrollo de múltiples herramientas para Gastos Médicos, contribuyendo significativamente a la eficiencia operativa y reducción de tiempos en la gestión de siniestros. (Java, Spring Boot, Keycloak)}
       \resumeItemListEnd
       
@@ -168,7 +173,7 @@
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{Proyectos}
   \resumeSubHeadingListStart
     \resumeSubItem{Backend Miniso}
       {Responsable del desarrollo del backend para la plataforma de e-commerce de Miniso, utilizando Java con Spring Boot y PostgreSQL como base de datos. El sistema fue integrado con servicios externos como NEO NET, Forza (gestión de paquetería) y Guatefacturas (facturación electrónica). Todo el desarrollo fue desplegado y gestionado en la infraestructura de AWS.}
@@ -177,7 +182,7 @@
 
 %
 %--------SKILLS------------
-\section{Skills}
+\section{Habilidades}
   \resumeSubHeadingListStart
     \item{
       \textbf{Languages}{:Java, C\#,  TypeScript, JavaScript, }
